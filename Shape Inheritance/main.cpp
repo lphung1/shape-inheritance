@@ -13,6 +13,9 @@ using namespace std;
 #include "Cuboid.h"
 #include "Ellipsoid.h"
 #include "Rectangle.h"
+#include "Cube.h"
+#include "Circle.h"
+#include "Ellipse.h"
 
 
 
@@ -35,7 +38,7 @@ int main() {
     rect2->setColor ("green");
     rect2->printDims();
     
-    /*
+    
     
     Cube *c = new Cube(5, "blue");
     c->printDims();
@@ -43,8 +46,12 @@ int main() {
     Circle *circ = new Circle(10, "pink");
     circ->printDims();
     
+    
+    
     Ellipse *ellipse = new Ellipse (5, 3, "magenta");
     ellipse->printDims();
+    
+    /*
     
     Ellipsoid *ellipsoid = new Ellipsoid (4, 8, 3, "purple");
     ellipsoid->printDims();

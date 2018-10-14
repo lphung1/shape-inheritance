@@ -13,7 +13,7 @@
 		46C868B62173DC2A0046603D /* Rectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46C868B52173DC2A0046603D /* Rectangle.cpp */; };
 		46C868B92173DC440046603D /* Ellipsoid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46C868B72173DC440046603D /* Ellipsoid.cpp */; };
 		46C868BC2173DC530046603D /* Cuboid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46C868BA2173DC530046603D /* Cuboid.cpp */; };
-		46C868BE2173DCC80046603D /* Elipse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46C868BD2173DCC80046603D /* Elipse.cpp */; };
+		46C868BE2173DCC80046603D /* Ellipse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46C868BD2173DCC80046603D /* Ellipse.cpp */; };
 		46C868C02173DCDB0046603D /* Cube.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46C868BF2173DCDB0046603D /* Cube.cpp */; };
 		46C868C22173DE0C0046603D /* Square.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46C868C12173DE0C0046603D /* Square.cpp */; };
 /* End PBXBuildFile section */
@@ -40,12 +40,15 @@
 		46C868B82173DC440046603D /* Ellipsoid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ellipsoid.h; sourceTree = "<group>"; };
 		46C868BA2173DC530046603D /* Cuboid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Cuboid.cpp; sourceTree = "<group>"; };
 		46C868BB2173DC530046603D /* Cuboid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cuboid.h; sourceTree = "<group>"; };
-		46C868BD2173DCC80046603D /* Elipse.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Elipse.cpp; sourceTree = "<group>"; };
+		46C868BD2173DCC80046603D /* Ellipse.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Ellipse.cpp; sourceTree = "<group>"; };
 		46C868BF2173DCDB0046603D /* Cube.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Cube.cpp; sourceTree = "<group>"; };
 		46C868C12173DE0C0046603D /* Square.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Square.cpp; sourceTree = "<group>"; };
 		46C868C32173E6850046603D /* Shape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
 		46C868C42173EE8C0046603D /* Square.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Square.h; sourceTree = "<group>"; };
 		46C868C52173F7FB0046603D /* Rectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		46E57CA72174042F0048EA8F /* Circle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		46E57CA8217406B80048EA8F /* Cube.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cube.h; sourceTree = "<group>"; };
+		46E57CA921740AE30048EA8F /* Ellipse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ellipse.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,14 +85,17 @@
 				46C868B12173DC080046603D /* Shape.cpp */,
 				46C868C32173E6850046603D /* Shape.h */,
 				46C868B32173DC1A0046603D /* Circle.cpp */,
+				46E57CA72174042F0048EA8F /* Circle.h */,
 				46C868B52173DC2A0046603D /* Rectangle.cpp */,
 				46C868C52173F7FB0046603D /* Rectangle.h */,
 				46C868C12173DE0C0046603D /* Square.cpp */,
 				46C868C42173EE8C0046603D /* Square.h */,
 				46C868B72173DC440046603D /* Ellipsoid.cpp */,
 				46C868BF2173DCDB0046603D /* Cube.cpp */,
+				46E57CA8217406B80048EA8F /* Cube.h */,
 				46C868B82173DC440046603D /* Ellipsoid.h */,
-				46C868BD2173DCC80046603D /* Elipse.cpp */,
+				46C868BD2173DCC80046603D /* Ellipse.cpp */,
+				46E57CA921740AE30048EA8F /* Ellipse.h */,
 				46C868BA2173DC530046603D /* Cuboid.cpp */,
 				46C868BB2173DC530046603D /* Cuboid.h */,
 			);
@@ -158,7 +164,7 @@
 				46C868BC2173DC530046603D /* Cuboid.cpp in Sources */,
 				46C868B92173DC440046603D /* Ellipsoid.cpp in Sources */,
 				46C868B42173DC1A0046603D /* Circle.cpp in Sources */,
-				46C868BE2173DCC80046603D /* Elipse.cpp in Sources */,
+				46C868BE2173DCC80046603D /* Ellipse.cpp in Sources */,
 				46C868B22173DC080046603D /* Shape.cpp in Sources */,
 				46C868B62173DC2A0046603D /* Rectangle.cpp in Sources */,
 			);

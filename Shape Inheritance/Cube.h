@@ -13,6 +13,7 @@
 class Cube : public Square{
 public:
     Cube();
+    Cube(float l);
     Cube(float l, string c);
     
     void calcVolume();

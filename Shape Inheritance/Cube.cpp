@@ -27,6 +27,17 @@ Cube::Cube(float l, string c){
     calcVolume();
 }
 
+Cube::Cube(float l){
+    length = l;
+    color = "White";
+    name = "Cube";
+    calcArea();
+    area = area * 6;
+    calcVolume();
+}
+
+
+
 
 void Cube::calcVolume(){
     volume = length * length * length;

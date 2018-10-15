@@ -12,12 +12,7 @@ using namespace std;
 
 #include "Cuboid.h"
 #include "Ellipsoid.h"
-#include "Rectangle.h"
 #include "Cube.h"
-#include "Circle.h"
-#include "Ellipse.h"
-
-
 
 int main() {
     cout << "Testing Inheritance.." << endl;
@@ -51,10 +46,12 @@ int main() {
     Ellipse *ellipse = new Ellipse (5, 3, "magenta");
     ellipse->printDims();
     
-    /*
+    
     
     Ellipsoid *ellipsoid = new Ellipsoid (4, 8, 3, "purple");
     ellipsoid->printDims();
+    
+    
     
     // test polymorphism
     cout << "Testing Polymorphism.." << endl;
@@ -63,6 +60,8 @@ int main() {
     shape = sq2;
     cout << "Testing Polymorphism.." << endl;
     shape->printDims();
+    
+    
     
     cout << "Name:" << shape->getName() << endl;
     
@@ -80,6 +79,6 @@ int main() {
     circ->printDims();
     cout << "Name:" << circ->getName() << endl;
     
-    */
+    
 }
 

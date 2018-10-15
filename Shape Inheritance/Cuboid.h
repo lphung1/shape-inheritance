@@ -9,5 +9,23 @@
 
 
 #include <stdio.h>
+#include "Rectangle.h"
 
-
+class Cuboid : public Rectangle{
+    
+public:
+    Cuboid();
+    Cuboid(float l, float w, float h, string c);
+    
+    
+    void calcVolume();
+    float getArea();
+    float getVolume();
+    void printDims();
+    
+protected:
+    float height, volume;
+    
+    
+    
+};
